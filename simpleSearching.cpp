@@ -15,7 +15,7 @@ int binSearch(int n, int arr[], int x)
             lo_index = mid + 1;
         }
         else
-            hi_index = mid; // equal contions also lies here. Thats why hi_index = mid-1 isn't applicable
+            hi_index = mid; // equal conditions also lies here. Thats why hi_index = mid-1 isn't applicable
     }
     if (arr[lo_index] == x)
         return lo_index;
